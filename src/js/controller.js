@@ -138,9 +138,7 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err.message);
   }
 };
-const newMessage = function () {
-  console.log('new Message');
-};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -149,7 +147,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView._addClickHandler(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newMessage();
 };
 
 init();
