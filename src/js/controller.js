@@ -1,7 +1,6 @@
 // import icons from 'url:../img/icons.svg';
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
-import { render } from 'sass';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
